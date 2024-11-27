@@ -3,8 +3,8 @@
   greetProgrammer();
   => "Hello, programmer!"
 */
-function greetProgrammer() {
-  console.log("Hello, programmer!");
+function greet_Programmer() {
+  print("Hello, programmer!\n");
 }
 
 /*
@@ -12,9 +12,7 @@ function greetProgrammer() {
   greet("Naureen");
   => "Hello, Naureen!"
 */
-function greet(name) {
-  console.log(`Hello, ${name}!`);
-}
+
 
 /*
   You should be able to call this function with no arguments and see its output in the terminal:
@@ -54,3 +52,4 @@ function halve(number) {
 
   return number / 2;
 }
+
